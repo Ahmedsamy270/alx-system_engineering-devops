@@ -3,11 +3,12 @@
 echo ' input file name '
 read var
 
-echo '#!/bin/bash' > ${var} echo '' >> ${var}
+echo '#!/bin/bash' > ${var}  
 
 chmod +x ${var}
 
 vi ${var}
+>>
 
 
 

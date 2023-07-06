@@ -3,7 +3,7 @@
 echo ' input file name '
 read var
 
-echo '#!/bin/bash' > ${var}
+echo '#!/bin/bash' > ${var} echo '' >> ${var}
 
 chmod +x ${var}
 

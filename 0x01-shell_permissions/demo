@@ -8,7 +8,7 @@ echo '#!/bin/bash' > ${var}
 chmod +x ${var}
 
 vi ${var}
->>
+
 
 
 

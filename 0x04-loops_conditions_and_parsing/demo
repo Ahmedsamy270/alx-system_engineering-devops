@@ -3,7 +3,7 @@
 echo ' input file name '
 read var
 
-echo -e '#!/bin/env bash\n' > ${var}  
+echo -e '#!/usr/bin/env bash\n' > ${var}  
 
 chmod +x ${var}
 

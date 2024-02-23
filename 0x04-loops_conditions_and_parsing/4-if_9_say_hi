@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#this script to use while and if to print best school
+
+counter=0
+
+while [ $counter -lt 10 ]
+do
+	if [ $counter -eq 9 ]
+	then
+		echo "Hi"
+		(( counter++ ))
+	fi
+	echo "Best School"
+	(( counter++))
+done
+

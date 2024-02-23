@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# this bash cript to display list of currently running processes
+
+ps aux

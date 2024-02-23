@@ -2,7 +2,8 @@
 # this script to display best school 10 times
 
 counter=0
-while (($counter < 10))
+
+while [ $counter -lt 10 ]
 do
 	echo "Best School"
 	(( counter++ ))
